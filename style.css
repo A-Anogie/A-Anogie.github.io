@@ -221,6 +221,10 @@ section{
     margin-bottom: 1rem;
 }
 
+.section__text__p2 a {
+    color: blue; /* Sets the color of hyperlinks within the specified class */
+}
+
 .title{
     font-size: 1.0rem;
     text-align: center;
