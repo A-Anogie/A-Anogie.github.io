@@ -188,7 +188,7 @@ section{
 #profile{
     display: flex;
     justify-content: flex-start; /* Aligns items at the start */
-    gap: 10rem;
+    gap: 15rem;
     height: 80vh;
 }
 
