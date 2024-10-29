@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Anogie Uduimoh - Academic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body id="top">
+    <main>
+    
+        <nav id="desktop-nav">
+            <div class="logo"><a href="#top">Andrew Anogie Uduimoh</a></div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Andrew Anogie Uduimoh</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#research" onclick="toggleMenu()">Research</a></li>
+                    <li><a href="#publications" onclick="toggleMenu()">Publications</a></li>
+                    <li><a href="#activities" onclick="toggleMenu()">Activities</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+
+         <section id="profile">
+            <div class="section__pic-container">
+                <img id="profile-pic" src="./assets/Professional.jpg" alt="Andrew Anogie Uduimoh Profile Picture">
+            </div>
+            <div class="section__text">
+                <h1 class="title">Andrew Anogie Uduimoh</h1>
+                <p class="section__text__p2">Lecturer | Cybersecurity Science | Federal University of Technology Minna</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/Anogie_s_Academic_CV_.pdf')">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="LinkedIn"
+                    class="icon" onclick="location.href='https://www.linkedin.com/in/andrew-uduimoh-129274124/'">
+                    <img src="./assets/github.png" alt="Github"
+                    class="icon" onclick="location.href='https://github.com/A-Anogie/'">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <!--
+                <div class="section__pic-container">
+                    <img src="./assets/profile-pic-emeka2.jpg" 
+                    alt="Profile Picture" 
+                    class="about-pic">
+                </div>
+                -->
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" 
+                            alt="experience icon"
+                            class="icon">
+                        <h3>Experience</h3>
+                        <br>7+ Years </br>Teaching & Research</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" 
+                            alt="Education icon"
+                            class="icon">
+                        <h3 class="pad-vert">Education</h3>
+                        <h4>Federal University of Technology Minna</h4>
+                        <div class="pad-vert">MTech. Cyber Security sciences</div>
+                        <h4>Federal University of Technology Minna</h4>
+                        BTech. Mathematics and Computer sciences</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="text-container">
+                        To be written
+                    </p>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#experience'">
+        </section>
+        
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>&copy; 2024 Andrew Anogie Uduimoh. All rights reserved.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
