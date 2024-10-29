@@ -198,8 +198,8 @@ section{
 
 .section__pic-container{
     display: flex;
-    height: 250px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     margin: auto 0;
     margin-right: 10rem; /* just added */
 }
@@ -243,7 +243,7 @@ section{
 .text-container{
     text-align: justify;
     color: black;
-    margin-top: 1.25rem;
+    margin-top: 1.5rem;
     margin-bottom: 1.25rem;
 }
 
@@ -295,7 +295,7 @@ section{
 }
 
 .btn-container{
-    gap: 0.8rem;
+    gap: 1.0rem;
 }
 
 /* About Section */
@@ -350,8 +350,8 @@ section{
 }
 
 .section__pic-container{
-    height: 250px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     margin: auto 0;
 }
 
