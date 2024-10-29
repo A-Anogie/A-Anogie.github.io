@@ -187,7 +187,7 @@ section{
 /* Profile Section */
 #profile{
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     justify-content: space-between;
     gap: 5rem;
     height: 80vh;
