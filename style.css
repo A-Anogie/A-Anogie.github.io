@@ -201,7 +201,7 @@ section{
     height: 250px;
     width: 150px;
     margin: auto 0;
-    margin-right: 4rem; /* just added */
+    margin-right: 10rem; /* just added */
 }
 
 .section__text{
