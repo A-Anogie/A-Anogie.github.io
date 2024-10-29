@@ -202,13 +202,13 @@ section{
     width: 150px;
     margin: auto 0;
     margin-bottom: 1rem;
-    margin-right: 10rem; /* just added */
+    margin-right: 2rem; /* just added */
 }
 
 .section__text{
     align-self: center;
     text-align: left;
-    padding-left: 4rem; /* Optional: Add padding for more space */
+    padding-left: 2rem; /* Optional: Add padding for more space */
 }
 
 .section__text p{
@@ -246,7 +246,7 @@ section{
     color: black;
     margin-top: 0.5rem;
     margin-bottom: 1.25rem;
-    margin-left: 3rem; /* just added */
+    margin-left: 2rem; /* just added */
 }
 
 /* ICONS */
