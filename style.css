@@ -188,7 +188,7 @@ section{
 #profile{
     display: flex;
     justify-content: flex-start;
-    gap: 5rem;
+    gap: 6rem;
     height: 80vh;
 }
 
@@ -201,6 +201,7 @@ section{
     height: 250px;
     width: 150px;
     margin: auto 0;
+    margin-right: 2rem;
 }
 
 .section__text{
