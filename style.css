@@ -217,12 +217,12 @@ section{
 }
 
 .section__text__p2{
-    font-size: 1.0rem;
+    font-size: 0.6rem;
     margin-bottom: 1rem;
 }
 
 .title{
-    font-size: 2.0rem;
+    font-size: 1.0rem;
     text-align: center;
 }
 
@@ -233,6 +233,11 @@ section{
     gap: 1rem;
 }
 
+.text-container{
+    text-align: justify;
+    color: black;
+    margin-bottom: 1rem;
+}
 
 /* ICONS */
 .icon{
@@ -244,7 +249,7 @@ section{
 .btn-container{
     display: flex;
     justify-content: center;
-    gap: 0.8rem;
+    gap: 1rem;
 }
 
 .btn{
@@ -340,12 +345,6 @@ section{
     height: 250px;
     width: 200px;
     margin: auto 0;
-}
-
-.text-container{
-    text-align: justify;
-    color: black;
-    margin-bottom: 1rem;
 }
 
 .pad-vert{
