@@ -207,7 +207,7 @@ section{
 .section__text{
     align-self: center;
     text-align: left;
-    padding-left: 2rem; /* Optional: Add padding for more space */
+    padding-left: 4rem; /* Optional: Add padding for more space */
 }
 
 .section__text p{
@@ -228,9 +228,9 @@ section{
 }
 
 .title{
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 1rem;  /* Increased space below the title */
+    /* margin-bottom: 1rem;  Increased space below the title */
 }
 
 #socials-container{
