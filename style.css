@@ -187,7 +187,7 @@ section{
 /* Profile Section */
 #profile{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 5rem;
     height: 80vh;
 }
@@ -199,7 +199,7 @@ section{
 .section__pic-container{
     display: flex;
     height: 250px;
-    width: 200px;
+    width: 150px;
     margin: auto 0;
 }
 
